@@ -52,3 +52,17 @@ To summarize, Machine Learning is great for:
 
 
 # Types of Machine Learning : 
+  
+  Categories based on:
+
+• Whether or not they are trained with human supervision
+    1. supervised
+    2. unsupervised
+    3. semisupervised
+    4. Reinforcement Learning
+• Whether or not they can learn incrementally on the fly 
+    1. online learning
+    2. batch learning
+• Whether they work by simply comparing new data points to known data points, or instead detect patterns in the training data and build a predictive model, much like scientists do 
+    1. instance-based learning
+    2. model-based learning
