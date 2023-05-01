@@ -139,7 +139,7 @@ Reinforcement Learning is a very different beast. The learning system, called an
 
 In **batch learning**, the system is incapable of learning incrementally: it must be trained using all the available data. This will generally take a lot of time and computing resources, so it is typically done offline. First the system is trained, and then it is launched into production and runs without learning anymore; it just applies what it has learned. This is called **offline learning**.
 
-# online Learning : 
+# Online Learning : 
 
 In **online learning**, you train the system incrementally by feeding it data instances sequentially, either individually or by small groups called mini-batches. Each learning step is fast and cheap, so the system can learn about new data on the fly, as it arrives.
 
