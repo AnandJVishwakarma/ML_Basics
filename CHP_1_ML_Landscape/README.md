@@ -40,6 +40,8 @@ Finally, Machine Learning can help humans learn (Figure 1-4): ML algorithms can 
 
 Applying ML techniques to dig into large amounts of data can help discover patterns that were not immediately apparent. This is called **data mining**.
 
+  
+<img src="Images/Figure1-4_Machine_Learning_can_help_humans_learn.png" />
 Figure 1-4. Machine Learning can help humans learn
 
 To summarize, Machine Learning is great for:
