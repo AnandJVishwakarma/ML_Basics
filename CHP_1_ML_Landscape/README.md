@@ -193,7 +193,6 @@ A better option is to split your data into two sets: the **training set** and th
 
 If the training error is low (i.e., your model makes few mistakes on the training set) but the generalization error is high, it means that your model is overfitting the training data.
 
- 
 ## Hyperparameter Tuning and Model Selection
 
 So evaluating a model is simple enough: just use a test set. Now suppose you are hesitating between two models (say a linear model and a polynomial model): how can you decide? One option is to train both and compare how well they generalize using the test set. 
