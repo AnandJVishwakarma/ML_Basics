@@ -122,7 +122,18 @@ Here are some of the most important unsupervised learning algorithms:
 
 # Semi-supervised Learning : 
 
+Some algorithms can deal with partially labeled training data, usually a lot of unlabeled data and a little bit of labeled data. This is called semisupervised learning.
+
+Some photo-hosting services, such as Google Photos, are good examples of this. Once you upload all your family photos to the service, it automatically recognizes that the same person A shows up in photos 1, 5, and 11, while another person B shows up in photos 2, 5, and 7. This is the unsupervised part of the algorithm (clustering). Now all the system needs is for you to tell it who these people are. Just one label per person,4 and it is able to name everyone in every photo, which is useful for searching photos.
+
+Most semisupervised learning algorithms are combinations of unsupervised and supervised algorithms. For example, **deep belief networks (DBNs)** are based on unsupervised components called **restricted Boltzmann machines (RBMs)** stacked on top of one another. RBMs are trained sequentially in an unsupervised manner, and then the whole system is fine-tuned using supervised learning techniques.
+
 # Reinforcement Learning : 
+
+Reinforcement Learning is a very different beast. The learning system, called an agent in this context, can observe the environment, select and perform actions, and get rewards in return (or penalties in the form of negative rewards). It must then learn by itself what is the best strategy, called a policy, to get the most reward over time. A policy defines what action the agent should choose when it is in a given situation.
+
+<img src="Images/Figure1-12_Reinforcement_Learning" />
+<p align="center">Figure 1-5 Reinforcement Learning<p>
 
 # online Learning : 
 
