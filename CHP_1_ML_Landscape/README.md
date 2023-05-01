@@ -19,8 +19,8 @@ Consider how you would write a spam filter using traditional programming techniq
 2. You would write a detection algorithm for each of the patterns that you noticed, and your program would flag emails as spam if a number of these patterns are detected.
 3. You would test your program, and repeat steps 1 and 2 until it is good enough.
 
-[<img src="Images/Figure1-1_The_traditional_approach.png" />]
-Figure 1-1. The traditional approach
+<img src="Images/Figure1-1_The_traditional_approach.png" />
+<p align="center">Figure 1-1. The traditional approach<p>
 
 Since the problem is not trivial, your program will likely become a long list of complex rules—pretty hard to maintain.
 In contrast, a spam filter based on Machine Learning techniques automatically learns which words and phrases are good predictors of spam by detecting unusually frequent patterns of words in the spam examples compared to the ham examples (Figure 1-2). The program is much shorter, easier to maintain, and most likely moreaccurate.
