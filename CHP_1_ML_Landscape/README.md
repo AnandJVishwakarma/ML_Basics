@@ -132,7 +132,7 @@ Most semisupervised learning algorithms are combinations of unsupervised and sup
 
 Reinforcement Learning is a very different beast. The learning system, called an agent in this context, can observe the environment, select and perform actions, and get rewards in return (or penalties in the form of negative rewards). It must then learn by itself what is the best strategy, called a policy, to get the most reward over time. A policy defines what action the agent should choose when it is in a given situation.
 
-<img src="Images/Figure1-12_Reinforcement_Learning" />
+<img src="Images/Figure1-12_Reinforcement_Learning.png" />
 <p align="center">Figure 1-5 Reinforcement Learning<p>
 
 # online Learning : 
