@@ -87,6 +87,38 @@ Here are some of the most important supervised learning algorithms:
 
 # Unsupervised Learning : 
 
+In unsupervised learning, as you might guess, the training data is unlabeled.
+
+For example, say you have a lot of data about your blog’s visitors. You may want to run a **clustering algorithm** to try to detect groups of similar visitors. 
+At no point do you tell the algorithm which group a visitor belongs to: it finds those connections without your help. For example, it might notice that 40% of your visitors are males who love comic books and generally read your blog in the evening, while 20% are young sci-fi lovers who visit during the weekends, and so on. If you use a **hierarchical clustering algorithm**, it may also subdivide each group into smaller groups. This may help you target your posts for each group.
+
+**Visualization algorithms** are also good examples of unsupervised learning algorithms: you feed them a lot of complex and unlabeled data, and they output a 2D or 3D representation of your data that can easily be plotted. These algorithms try to preserve as much structure as they can (e.g., trying to keep separate clusters in the input space from overlapping in the visualization), so you can understand how the data is organized and perhaps identify unsuspected patterns.
+
+A related task is **dimensionality reduction**, in which the goal is to simplify the data without losing too much information. One way to do this is to merge several correlated features into one. For example, a car’s mileage may be very correlated with its age, so the dimensionality reduction algorithm will merge them into one feature that represents the car’s wear and tear. This is called feature extraction.
+
+Another important unsupervised task is **anomaly detection**. For example, detecting unusual credit card transactions to prevent fraud, catching manufacturing defects, or automatically removing outliers from a dataset before feeding it to another learning algorithm. The system is shown mostly normal instances during training, so it learns to recognize them and when it sees a new instance it can tell whether it looks like a normal one or whether it is likely an anomaly. 
+
+A very similar task is **novelty detection**: the difference is that novelty detection algorithms expect to see only normal data during training, while anomaly detection algorithms are usually more tolerant, they can often perform well even with a small percentage of outliers in the training set.
+
+Another common unsupervised task is **association rule learning**, in which the goal is to dig into large amounts of data and discover interesting relations between attributes. For example, suppose you own a supermarket. Running an association rule on your sales logs may reveal that people who purchase barbecue sauce and potato chips also tend to buy steak. Thus, you may want to place these items close to each other.
+
+Here are some of the most important unsupervised learning algorithms:
+1. Clustering
+    i. K-Means
+    ii. DBSCAN
+    iii. Hierarchical Cluster Analysis (HCA)
+2. Visualization and dimensionality reduction
+    i. Principal Component Analysis (PCA)
+    ii. Kernel PCA
+    iii. Locally-Linear Embedding (LLE)
+    iv. t-distributed Stochastic Neighbor Embedding (t-SNE)
+3. Anomaly detection and novelty detection
+    i. One-class SVM
+    ii. Isolation Forest
+4. Association rule learning
+    i. Apriori
+    ii. Eclat
+
 # Semi-supervised Learning : 
 
 # Reinforcement Learning : 
