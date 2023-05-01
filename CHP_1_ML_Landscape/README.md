@@ -64,3 +64,28 @@ To summarize, Machine Learning is great for:
 ## Whether they work by simply comparing new data points to known data points, or instead detect patterns in the training data and build a predictive model, much like scientists do 
 1. instance-based learning
 2. model-based learning
+
+
+
+# Supervised Learning : 
+In supervised learning, the training data you feed to the algorithm includes the desired solutions, called labels.
+A typical supervised learning task is **classification**.
+
+The spam filter is a good example of this: it is trained with many example emails along with their class (spam or ham), and it must learn how to classify new emails. 
+
+Another typical task is to predict a target numeric value, such as the price of a car, given a set of features (mileage, age, brand, etc.) called predictors. This sort of task is called **regression** .
+
+To train the system, you need to give it many examples of cars, including both their predictors and their labels
+
+# Unsupervised Learning : 
+
+# Semi-supervised Learning : 
+
+# Reinforcement Learning : 
+
+# online Learning : 
+
+# Batch Learning : 
+
+# Instance-based Learning : 
+# Model-based Learning : 
