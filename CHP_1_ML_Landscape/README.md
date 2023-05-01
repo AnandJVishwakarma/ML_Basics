@@ -160,16 +160,16 @@ Another way to generalize from a set of examples is to build a model of these ex
 
 1. Insufficient Quantity of Training Data
 
-2. Nonrepresentative Training Dataz
+2. Nonrepresentative Training Data
 
 3. Poor-Quality Data
     - Obviously, if your training data is full of errors, outliers, and noise (e.g., due to poor-quality measurements), it will make it harder for the system to detect the underlying patterns, so your system is less likely to perform well.
 
 4. Irrelevant Features
     -  A critical part of the success of a Machine Learning project is coming up with a good set of features to train on. This process, called feature engineering, involves:
-        • Feature selection: selecting the most useful features to train on among existing features.
-        • Feature extraction: combining existing features to produce a more useful one (as we saw earlier, dimensionality reduction algorithms can help).
-        • Creating new features by gathering new data.
+        - Feature selection: selecting the most useful features to train on among existing features.
+        - Feature extraction: combining existing features to produce a more useful one (as we saw earlier, dimensionality reduction algorithms can help).
+        - Creating new features by gathering new data.
 
 5. Overfitting the Training Data
     - Say you are visiting a foreign country and the taxi driver rips you off. You might be tempted to say that all taxi drivers in that country are thieves. Overgeneralizing is something that we humans do all too often, and unfortunately machines can fall into the same trap if we are not careful. In Machine Learning this is called **overfitting**: it means that the model performs well on the training data, but it does not generalize well.
@@ -180,9 +180,9 @@ Another way to generalize from a set of examples is to build a model of these ex
 6. Underfitting the Training Data
     - Underfitting is the opposite of overfitting: it occurs when your model is too simple to learn the underlying structure of the data.
     - The main options to fix this problem are:
-        • Selecting a more powerful model, with more parameters
-        • Feeding better features to the learning algorithm (feature engineering)
-        • Reducing the constraints on the model (e.g., reducing the regularization hyper‐parameter)
+        - Selecting a more powerful model, with more parameters
+        - Feeding better features to the learning algorithm (feature engineering)
+        - Reducing the constraints on the model (e.g., reducing the regularization hyper‐parameter)
 
 # Testing and Validating:
 
