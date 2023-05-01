@@ -135,9 +135,23 @@ Reinforcement Learning is a very different beast. The learning system, called an
 <img src="Images/Figure1-12_Reinforcement_Learning.png" />
 <p align="center">Figure 1-5 Reinforcement Learning<p>
 
-# online Learning : 
-
 # Batch Learning : 
 
+In **batch learning**, the system is incapable of learning incrementally: it must be trained using all the available data. This will generally take a lot of time and computing resources, so it is typically done offline. First the system is trained, and then it is launched into production and runs without learning anymore; it just applies what it has learned. This is called **offline learning**.
+
+# online Learning : 
+
+In **online learning**, you train the system incrementally by feeding it data instances sequentially, either individually or by small groups called mini-batches. Each learning step is fast and cheap, so the system can learn about new data on the fly, as it arrives.
+
 # Instance-based Learning : 
+
+The instance-based learning: the system learns the examples by heart, then generalizes to new cases by comparing them to the learned examples (or a subset of them), using a similarity measure.
+
 # Model-based Learning : 
+
+Another way to generalize from a set of examples is to build a model of these examples, then use that model to make predictions. This is called model-based learning
+
+
+**Utility function (or fitness function)**: that measures how good your model is.
+
+**Cost function**: that measures how bad your model is.
