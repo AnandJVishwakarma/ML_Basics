@@ -104,20 +104,21 @@ Another common unsupervised task is **association rule learning**, in which the 
 
 Here are some of the most important unsupervised learning algorithms:
 1. Clustering
-    i. K-Means
-    ii. DBSCAN
-    iii. Hierarchical Cluster Analysis (HCA)
+    - K-Means
+    - DBSCAN
+    - Hierarchical Cluster Analysis (HCA)
 2. Visualization and dimensionality reduction
-    i. Principal Component Analysis (PCA)
-    ii. Kernel PCA
-    iii. Locally-Linear Embedding (LLE)
+    - Principal Component Analysis (PCA)
+    - Kernel PCA
+    - Locally-Linear Embedding (LLE)
     iv. t-distributed Stochastic Neighbor Embedding (t-SNE)
 3. Anomaly detection and novelty detection
-    i. One-class SVM
-    ii. Isolation Forest
+    - One-class SVM
+    - Isolation Forest
 4. Association rule learning
-    i. Apriori
-    ii. Eclat
+    - Apriori
+    - Eclat
+
 
 # Semi-supervised Learning : 
 
