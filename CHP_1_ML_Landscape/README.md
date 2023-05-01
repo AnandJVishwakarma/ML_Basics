@@ -77,6 +77,14 @@ Another typical task is to predict a target numeric value, such as the price of 
 
 To train the system, you need to give it many examples of cars, including both their predictors and their labels
 
+Here are some of the most important supervised learning algorithms:
+1. k-Nearest Neighbors
+2. Linear Regression
+3. Logistic Regression
+4. Support Vector Machines (SVMs)
+5. Decision Trees and Random Forests
+6. Neural networks
+
 # Unsupervised Learning : 
 
 # Semi-supervised Learning : 
